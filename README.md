@@ -1,4 +1,7 @@
 # Tempfile::Fixture
+[![Build Status](https://travis-ci.com/SleeplessByte/tempfile-fixture.svg?branch=master)](https://travis-ci.com/SleeplessByte/tempfile-fixture)
+[![Gem Version](https://badge.fury.io/rb/tempfile-fixture.svg)](https://badge.fury.io/rb/tempfile-fixture)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 Have tempfile serve you IO fixtures.
 
