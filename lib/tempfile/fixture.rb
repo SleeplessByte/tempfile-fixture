@@ -39,11 +39,12 @@ Tempfile.class_eval do
       file = copy!(&block)
       self
     ensure
-      file.close unless file.closed?
+      if file
+        file.close unless file.closed?
 
-      # Silently fail (hello windows)
-      file.unlink rescue nil # rubocop:disable Style/RescueModifier
-
+        # Silently fail (hello windows)
+        file.unlink rescue nil # rubocop:disable Style/RescueModifier
+      end
     end
 
     private
