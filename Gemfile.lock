@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    tempfile-fixture (0.1.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.11.3)
+    rake (12.3.2)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  bundler (~> 2)
+  minitest (~> 5.0)
+  rake (~> 12.3)
+  tempfile-fixture!
+
+BUNDLED WITH
+   2.0.1
